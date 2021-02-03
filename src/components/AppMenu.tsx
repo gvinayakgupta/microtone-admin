@@ -6,7 +6,7 @@ import Icon, {
 import { NavLink } from "react-router-dom";
 
 const NavIcon = () => (
-    <img src={`${process.env.PUBLIC_URL}/mt.png`} alt="MT" className="logo" />
+    <img src={`${process.env.PUBLIC_URL}/microtone-logo.png`} alt="MT" className="logo" />
 );
 
 export default class AppMenu extends React.Component {
